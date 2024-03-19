@@ -1,0 +1,23 @@
+//  CREATE
+POST  http://localhost:3333/api/links
+Content-Type: application/json
+
+{
+  "code": "portfolio",
+  "url": "https://portfolio-jakki.netlify.app/"
+}
+
+###
+
+//  READ
+GET http://localhost:3333/api/links
+
+###
+
+// REDIRECT
+GET http://localhost:3333/github
+
+###
+
+// ACCESS LINKS
+GET http://localhost:3333/api/metrics
